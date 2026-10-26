@@ -1,0 +1,12 @@
+{
+  "name": "mern-internship-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A beginner-friendly MERN starter with a React task board and Express/MongoDB API",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "build": "npm --prefix client run build"
+  }
+}
